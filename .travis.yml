@@ -5,5 +5,5 @@ script:
   - ls -la ~/.ssh/
   - ls -la /etc/ssh
   - ls -la /home
-  - ls -la /root
+  - sudo ls -la /root
   - ruby test.rb
