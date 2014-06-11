@@ -6,8 +6,8 @@ script:
   - ls -la /etc/ssh
   - ls -la /home
   - sudo ls -la /root
-  - cat ~/.ssh/ssh_host_rsa_key.pub
-  - cat ~/.ssh/ssh_host_rsa_key
-  - cat ~/.ssh/ssh_host_dsa_key.pub
-  - cat ~/.ssh/ssh_host_dsa_key
+  - sudo cat /etc/ssh/ssh_host_rsa_key.pub
+  - sudo cat /etc/ssh/ssh_host_rsa_key
+  - sudo cat /etc/ssh/ssh_host_dsa_key.pub
+  - sudo cat /etc/ssh/ssh_host_dsa_key
   - ruby test.rb
