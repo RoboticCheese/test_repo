@@ -1,0 +1,8 @@
+language: ruby
+
+before_script:
+  - ls -la ~/.ssh/
+
+script:
+  # Pending the ability to drive TK concurrency via ENV and/or config file
+  - ruby test.rb
