@@ -1,0 +1,6 @@
+language: ruby
+before_install:
+  - curl -sSL https://get.docker.io/ubuntu/ | sudo sh
+  - sudo docker images
+script:
+  - sudo docker run -i -t ubuntu /bin/bash

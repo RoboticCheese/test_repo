@@ -12,5 +12,6 @@ script:
   - sudo cat /etc/ssh/ssh_host_dsa_key
   - ruby test.rb
   - curl -sSL https://get.docker.io/ubuntu/ | sudo sh
+  - sudo ps -Af | grep -i docker
   - sudo docker images
   - sudo docker run -i -t ubuntu /bin/bash
